@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "44773920427",
+    "project_id": "abituriyent-e2002",
+    "storage_bucket": "abituriyent-e2002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44773920427:android:134a4e17534e572837b1ee",
+        "android_client_info": {
+          "package_name": "com.abituriyentuz.abituriyent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "44773920427-hr3b0ufoq0bj4b4nv9dfn6qlvu4ea9js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaQ2Pbgsbk1SH7gpl3S5MDumXnXW_Q1Vg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "44773920427-hr3b0ufoq0bj4b4nv9dfn6qlvu4ea9js.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

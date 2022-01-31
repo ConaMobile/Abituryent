@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="viloyat_array">
+        <item>Matematika</item>
+        <item>Ingliz tili</item>
+        <item>Ona tili va Adabiyot</item>
+        <item>Tarix</item>
+        <item>Fizika</item>
+        <item>Kimyo</item>
+        <item>Rus tili</item>
+        <item>Geografiya</item>
+        <item>Huquq</item>
+        <item>Nemis tili</item>
+        <item>Arab tili</item>
+    </string-array>
+</resources>

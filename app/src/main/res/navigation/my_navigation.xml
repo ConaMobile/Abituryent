@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.abituriyentuz.abituriyent.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_ustozMainFragment"
+            app:destination="@id/ustozMainFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_oquvchiMainFragment"
+            app:destination="@id/oquvchiMainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ustozMainFragment"
+        android:name="com.abituriyentuz.abituriyent.UstozMainFragment"
+        android:label="fragment_ustoz_main"
+        tools:layout="@layout/fragment_ustoz_main" >
+        <action
+            android:id="@+id/action_ustozMainFragment_to_groupFragment"
+            app:destination="@id/groupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groupFragment"
+        android:name="com.abituriyentuz.abituriyent.GroupFragment"
+        android:label="fragment_group"
+        tools:layout="@layout/fragment_group" >
+        <action
+            android:id="@+id/action_groupFragment_to_leftGrFragment"
+            app:destination="@id/leftGrFragment" />
+        <action
+            android:id="@+id/action_groupFragment_to_rightGrFragment"
+            app:destination="@id/rightGrFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/leftGrFragment"
+        android:name="com.abituriyentuz.abituriyent.LeftGrFragment"
+        android:label="fragment_left_gr"
+        tools:layout="@layout/fragment_left_gr" >
+        <action
+            android:id="@+id/action_leftGrFragment_to_addTestFragment"
+            app:destination="@id/addTestFragment" />
+        <action
+            android:id="@+id/action_leftGrFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rightGrFragment"
+        android:name="com.abituriyentuz.abituriyent.RightGrFragment"
+        android:label="fragment_right_gr"
+        tools:layout="@layout/fragment_right_gr" />
+    <fragment
+        android:id="@+id/oquvchiMainFragment"
+        android:name="com.abituriyentuz.abituriyent.oquvchiMainFragment"
+        android:label="fragment_oquvchi_main"
+        tools:layout="@layout/fragment_oquvchi_main" >
+        <action
+            android:id="@+id/action_oquvchiMainFragment_to_groupOquvchiFragment"
+            app:destination="@id/groupOquvchiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/groupOquvchiFragment"
+        android:name="com.abituriyentuz.abituriyent.groupOquvchiFragment"
+        android:label="fragment_group_oquvchi"
+        tools:layout="@layout/fragment_group_oquvchi" >
+        <action
+            android:id="@+id/action_groupOquvchiFragment_to_leftOquvchiFragment"
+            app:destination="@id/leftOquvchiFragment" />
+        <action
+            android:id="@+id/action_groupOquvchiFragment_to_rightOquvchiFragment"
+            app:destination="@id/rightOquvchiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTestFragment"
+        android:name="com.abituriyentuz.abituriyent.addTestFragment"
+        android:label="fragment_add_test"
+        tools:layout="@layout/fragment_add_test" />
+    <fragment
+        android:id="@+id/leftOquvchiFragment"
+        android:name="com.abituriyentuz.abituriyent.LeftOquvchiFragment"
+        android:label="fragment_left_oquvchi"
+        tools:layout="@layout/fragment_left_oquvchi" >
+        <action
+            android:id="@+id/action_leftOquvchiFragment_to_testJavobFragment"
+            app:destination="@id/testJavobFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rightOquvchiFragment"
+        android:name="com.abituriyentuz.abituriyent.RightOquvchiFragment"
+        android:label="fragment_right_oquvchi"
+        tools:layout="@layout/fragment_right_oquvchi" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.abituriyentuz.abituriyent.searchFragment"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" />
+    <fragment
+        android:id="@+id/testJavobFragment"
+        android:name="com.abituriyentuz.abituriyent.TestJavobFragment"
+        android:label="fragment_test_javob"
+        tools:layout="@layout/fragment_test_javob" >
+        <action
+            android:id="@+id/action_testJavobFragment_to_testLeftFragment"
+            app:destination="@id/testLeftFragment" />
+        <action
+            android:id="@+id/action_testJavobFragment_to_javobRightFragment"
+            app:destination="@id/javobRightFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/testLeftFragment"
+        android:name="com.abituriyentuz.abituriyent.TestLeftFragment"
+        android:label="fragment_test_left"
+        tools:layout="@layout/fragment_test_left" />
+    <fragment
+        android:id="@+id/javobRightFragment"
+        android:name="com.abituriyentuz.abituriyent.javobRightFragment"
+        android:label="fragment_javob_right"
+        tools:layout="@layout/fragment_javob_right" />
+</navigation>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Abituriyent</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="username_kiriting">Username kiriting...</string>
+    <string name="ismingizni_kiriting">Ismingizni kiriting...</string>
+    <string name="saqlash">Saqlash</string>
+    <string name="gruppa_nomini_kiriting">Gruppa nomini kiriting...</string>
+    <string name="guruh_nomini_kiriting">Guruh nomini kiriting...</string>
+    <string name="welcome_to_nyour_app_name">Welcome to\nYour App Name!!!</string>
+    <string name="faningizni_tanlang">Faningizni tanlang...</string>
+    <string name="group_name">Group name</string>
+    <string name="group_username">group username</string>
+    <string name="add_test">Add Test</string>
+    <string name="upload">Upload</string>
+    <string name="save">Save</string>
+    <string name="new_test">NEW TEST</string>
+</resources>
